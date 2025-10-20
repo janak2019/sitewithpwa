@@ -15,6 +15,7 @@ function notify() {
   return (
     <>
     <h1>Hello All</h1>
+    <p>Hello</p>
     </>
   )
 }
