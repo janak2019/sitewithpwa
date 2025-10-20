@@ -13,7 +13,9 @@ function notify() {
 }
 
   return (
-    <div>App</div>
+    <>
+    <h1>Hello All</h1>
+    </>
   )
 }
 
