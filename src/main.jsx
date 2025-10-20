@@ -4,8 +4,6 @@ import './index.css'
 import App from './App.jsx'
 import { registerSW } from 'virtual:pwa-register'
 
-createApp(App).mount('#app')
-
 // Correct registration for vite-plugin-pwa:
 const updateSW = registerSW({
   onNeedRefresh() {},
